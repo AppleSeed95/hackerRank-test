@@ -82,7 +82,7 @@ func main() {
 func readLine(reader *bufio.Reader) string {
 	str, _, err := reader.ReadLine()
 	if err == io.EOF {
-		return ""
+		return " "
 	}
 
 	return strings.TrimRight(string(str), "\r\n")
