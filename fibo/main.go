@@ -49,7 +49,6 @@ func generateFibo(nth int) int {
 }
 func store() {
 	Println("save")
-	Println("saving completed")
 }
 func main() {
 	reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
